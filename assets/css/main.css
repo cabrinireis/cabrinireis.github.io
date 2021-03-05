@@ -4,6 +4,10 @@
 
 /* Basic */
 @font-face {
+  font-family: Cabrito;
+  src: url(/font/CabritoDidone-NorReg.ttf);
+}
+@font-face {
   font-family: Bigilla;
   src: url(/font/Bigilla-Bold.otf);
 }
@@ -125,9 +129,14 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-right: 10rem;
+    margin-right: 20%;
+    margin-bottom: 1rem;
     font-size: 2rem;
-
+  }
+  @media screen and (max-width: 425px ) {
+    #topo {
+      display: none;
+    }
   }
 	body, input, select, textarea {
 		color: #777;
@@ -260,7 +269,11 @@
 	}
 
   body h1, h2, h3, span {
-    font-family: 'Bigilla';
+    /* font-family: 'Elsie Swash Caps', cursive; */
+
+
+    font-family: 'Milonga', cursive;
+
   }
   body p {
     font-family: 'montserrat';
@@ -3191,6 +3204,13 @@
 			}
 
 /* Banner */
+.video_banner {
+  min-height: 45px;
+}
+.video_banner video {
+  width: 100%;
+  position: absolute;
+}
 
 	#banner {
 		/* background-attachment: scroll,							fixed; */
@@ -3929,7 +3949,7 @@
 	}
 
 #banner .special >li >a {
-  font-family: 'Bigilla';
+  font-family: 'Milonga', cursive;
   font-size: 1.3rem;
   color: #005377 !important;
 }
@@ -3947,6 +3967,7 @@
     margin: 3rem auto;
     text-align: right;
   }
+
   @media screen and (max-width: 425px) {
 
     .banner_chamada {
@@ -3959,7 +3980,7 @@
 
 
   .banner_chamada > h1 {
-    font-family: 'Bigilla';
+    /* font-family: 'Bigilla'; */
     line-height: 1;
     font-weight: 900;
     font-size: 6rem;

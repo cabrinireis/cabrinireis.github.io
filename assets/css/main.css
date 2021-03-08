@@ -2564,6 +2564,7 @@
       justify-content: center;
       gap: 2rem;
       align-items: baseline;
+      margin-bottom: 0;
 		}
 
 			ul.icons li {

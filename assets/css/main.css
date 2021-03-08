@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
-@import url("mediascrean.css");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
 
 /* Basic */
 @font-face {
@@ -3981,7 +3980,6 @@
 
 
   .banner_chamada > h1 {
-    /* font-family: 'Bigilla'; */
     line-height: 1;
     font-weight: 900;
     font-size: 6rem;

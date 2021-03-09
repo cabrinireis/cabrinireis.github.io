@@ -1,19 +1,20 @@
 @import url("fontawesome-all.min.css");
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@1,300&display=swap');
 
 /* Basic */
-@font-face {
+/* @font-face {
   font-family: Cabrito;
   src: url(/font/CabritoDidone-NorReg.ttf);
-}
-@font-face {
+} */
+/* @font-face {
   font-family: Bigilla;
   src: url(/font/Bigilla-Bold.otf);
-}
-@font-face {
+} */
+/* @font-face {
   font-family: montserrat;
   src: url(/font/montserrat-light-italic.ttf);
-}
+} */
 
 
 
@@ -271,11 +272,11 @@
     /* font-family: 'Elsie Swash Caps', cursive; */
 
 
-    font-family: 'Milonga', cursive;
+    font-family: 'Berkshire Swash', cursive;
 
   }
   body p {
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
   }
 
 	.align-left {
@@ -3949,7 +3950,8 @@
 	}
 
 #banner .special >li >a {
-  font-family: 'Milonga', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 1.3rem;
   color: #005377 !important;
 }
@@ -4237,7 +4239,6 @@
 }
 
 .card_anodesaojose_title {
-  font-family: 'Bigilla';
   text-align: center;
   margin: auto;
 }
@@ -4376,12 +4377,12 @@
   background-position: center;
 }
 .comunhaodebens_title h1 {
-  font-family: 'Milonga', cursive;
+  /* font-family: 'Milonga', cursive; */
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .comunhaodebens_title p {
-  font-family: 'Milonga', cursive;
+  /* font-family: 'Milonga', cursive; */
   font-size: 1.4rem;
 }
 .comunhaodebens_title-btn {
